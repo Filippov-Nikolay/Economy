@@ -1,0 +1,16 @@
+.wrapper__row {
+    display: flex;
+    flex-direction: column;
+}
+.wrapper__row .wrapper__item {
+    flex-direction: row;
+    background-color: #1A1A1A;
+}
+.wrapper__row .wrapper__item:not(.wrapper__header):hover {
+    transform: translateY(-10px);
+}
+
+.wrapper__row .wrapper__info {
+    width: 100%;
+    height: auto;
+}

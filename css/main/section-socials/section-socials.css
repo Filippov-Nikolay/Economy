@@ -1,0 +1,20 @@
+.socials {
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+.socials__item {
+}
+.socials__link {
+    filter: grayscale(1);
+
+    transition: all .5s ease;
+}
+.socials__link:hover {
+    filter: grayscale(0);
+}
+.socials__img {
+    max-width: 150px;
+}

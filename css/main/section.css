@@ -1,0 +1,14 @@
+.main {
+    padding-top: 85px;
+}
+.section__content {
+    padding: 25px;
+
+    backdrop-filter: blur(20px);
+    border-radius: 13px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
